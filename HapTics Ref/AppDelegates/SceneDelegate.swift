@@ -18,10 +18,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         
-        let vc = UIViewController()
-        vc.view.backgroundColor = .blue
+        let vc = MainListViewController()
+        let navVC = UINavigationController(rootViewController: vc)
         
-        window?.rootViewController = vc
+        window?.rootViewController = navVC
         
         window?.makeKeyAndVisible()
     }
