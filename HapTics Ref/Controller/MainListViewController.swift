@@ -11,9 +11,10 @@ class MainListViewController: AnimatableListViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableView = UITableView(frame: .zero, style: .insetGrouped)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.reuseId)
         tableView.separatorStyle = .none
+        
         title = "HapTics Ref"
     }
     
@@ -27,7 +28,7 @@ class MainListViewController: AnimatableListViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        20
+        12
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
