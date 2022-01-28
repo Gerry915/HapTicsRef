@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		B7ED663427A4232E003FB84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED663327A4232E003FB84B /* AppDelegate.swift */; };
 		B7ED663627A4232E003FB84B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED663527A4232E003FB84B /* SceneDelegate.swift */; };
-		B7ED663827A4232E003FB84B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED663727A4232E003FB84B /* ViewController.swift */; };
-		B7ED663B27A4232E003FB84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ED663927A4232E003FB84B /* Main.storyboard */; };
 		B7ED663D27A42330003FB84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7ED663C27A42330003FB84B /* Assets.xcassets */; };
 		B7ED664027A42330003FB84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ED663E27A42330003FB84B /* LaunchScreen.storyboard */; };
 		B7ED664B27A42330003FB84B /* HapTics_RefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED664A27A42330003FB84B /* HapTics_RefTests.swift */; };
@@ -39,8 +37,6 @@
 		B7ED663027A4232E003FB84B /* HapTics Ref.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HapTics Ref.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7ED663327A4232E003FB84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7ED663527A4232E003FB84B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7ED663727A4232E003FB84B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7ED663A27A4232E003FB84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7ED663C27A42330003FB84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7ED663F27A42330003FB84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7ED664127A42330003FB84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,13 +95,9 @@
 		B7ED663227A4232E003FB84B /* HapTics Ref */ = {
 			isa = PBXGroup;
 			children = (
-				B7ED663327A4232E003FB84B /* AppDelegate.swift */,
-				B7ED663527A4232E003FB84B /* SceneDelegate.swift */,
-				B7ED663727A4232E003FB84B /* ViewController.swift */,
-				B7ED663927A4232E003FB84B /* Main.storyboard */,
-				B7ED663C27A42330003FB84B /* Assets.xcassets */,
-				B7ED663E27A42330003FB84B /* LaunchScreen.storyboard */,
-				B7ED664127A42330003FB84B /* Info.plist */,
+				B7ED666527A4234F003FB84B /* Supports */,
+				B7ED666427A42347003FB84B /* Resources */,
+				B7ED666327A42338003FB84B /* AppDelegates */,
 			);
 			path = "HapTics Ref";
 			sourceTree = "<group>";
@@ -125,6 +117,32 @@
 				B7ED665627A42330003FB84B /* HapTics_RefUITestsLaunchTests.swift */,
 			);
 			path = "HapTics RefUITests";
+			sourceTree = "<group>";
+		};
+		B7ED666327A42338003FB84B /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B7ED663327A4232E003FB84B /* AppDelegate.swift */,
+				B7ED663527A4232E003FB84B /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B7ED666427A42347003FB84B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7ED663C27A42330003FB84B /* Assets.xcassets */,
+				B7ED663E27A42330003FB84B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B7ED666527A4234F003FB84B /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				B7ED664127A42330003FB84B /* Info.plist */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +251,6 @@
 			files = (
 				B7ED664027A42330003FB84B /* LaunchScreen.storyboard in Resources */,
 				B7ED663D27A42330003FB84B /* Assets.xcassets in Resources */,
-				B7ED663B27A4232E003FB84B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7ED663827A4232E003FB84B /* ViewController.swift in Sources */,
 				B7ED663427A4232E003FB84B /* AppDelegate.swift in Sources */,
 				B7ED663627A4232E003FB84B /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B7ED663927A4232E003FB84B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7ED663A27A4232E003FB84B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7ED663E27A42330003FB84B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,10 +449,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64TX422529;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HapTics Ref/Info.plist";
+				INFOPLIST_FILE = "HapTics Ref/Supports/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +463,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,10 +476,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64TX422529;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HapTics Ref/Info.plist";
+				INFOPLIST_FILE = "HapTics Ref/Supports/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
