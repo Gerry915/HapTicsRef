@@ -12,6 +12,7 @@
 		B7441AF527A4251300D41998 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7441AF427A4251300D41998 /* ReusableView.swift */; };
 		B7441AF727A426A800D41998 /* AnimatableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7441AF627A426A800D41998 /* AnimatableCollectionViewController.swift */; };
 		B7441AF927A4274100D41998 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7441AF827A4274100D41998 /* Feedback.swift */; };
+		B7441AFB27A5517B00D41998 /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7441AFA27A5517B00D41998 /* FeedbackViewModel.swift */; };
 		B7ED663427A4232E003FB84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED663327A4232E003FB84B /* AppDelegate.swift */; };
 		B7ED663627A4232E003FB84B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED663527A4232E003FB84B /* SceneDelegate.swift */; };
 		B7ED663D27A42330003FB84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7ED663C27A42330003FB84B /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		B7441AF427A4251300D41998 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		B7441AF627A426A800D41998 /* AnimatableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionViewController.swift; sourceTree = "<group>"; };
 		B7441AF827A4274100D41998 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		B7441AFA27A5517B00D41998 /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
 		B7ED663027A4232E003FB84B /* HapTics Ref.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HapTics Ref.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7ED663327A4232E003FB84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7ED663527A4232E003FB84B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				B7ED666527A4234F003FB84B /* Supports */,
 				B7ED666427A42347003FB84B /* Resources */,
 				B7ED666327A42338003FB84B /* AppDelegates */,
+				B7441AFA27A5517B00D41998 /* FeedbackViewModel.swift */,
 			);
 			path = "HapTics Ref";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				B7441AEF27A423E600D41998 /* MainListViewController.swift in Sources */,
 				B7441AF527A4251300D41998 /* ReusableView.swift in Sources */,
 				B7ED663427A4232E003FB84B /* AppDelegate.swift in Sources */,
+				B7441AFB27A5517B00D41998 /* FeedbackViewModel.swift in Sources */,
 				B7441AF227A4240200D41998 /* AnimatableListViewController.swift in Sources */,
 				B7441AF727A426A800D41998 /* AnimatableCollectionViewController.swift in Sources */,
 				B7441AF927A4274100D41998 /* Feedback.swift in Sources */,
